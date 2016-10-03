@@ -6,4 +6,7 @@ def del_k_digits(numbr,k):
 if __name__ == '__main__':
     numbr = input()
     k = input()
-    print del_k_digits(numbr,k)
+    if k > len(list(str(numbr))):
+        print 'not possible'
+    else:
+        print del_k_digits(numbr,k)
