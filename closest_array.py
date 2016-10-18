@@ -35,3 +35,6 @@ if __name__ == '__main__':
         print pos
     else:
         print pos+1
+
+        
+ '''Given an array of integers and an integer find the closest number in the array'''
