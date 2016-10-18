@@ -13,3 +13,6 @@ if __name__ == '__main__':
     list_of_num = list(map(int,raw_input().split()))
     result = concatMax(list_of_num)
     print result    
+
+    
+ ''' Given an array of integers concat them to find the maximum formed integer'''
